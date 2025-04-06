@@ -15,39 +15,39 @@ def recover_password(
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Recupera tu contraseña</title>
             <style>
-                body {
+                body {{
                     font-family: 'Helvetica Neue', Arial, sans-serif;
                     background-color: #f7f7f7;
                     margin: 0;
                     padding: 0;
                     color: #333;
-                }
-                .container {
+                }}
+                .container {{
                     max-width: 600px;
                     margin: 20px auto;
                     background: #ffffff;
                     border-radius: 10px;
                     overflow: hidden;
                     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-                }
-                .header {
+                }}
+                .header {{
                     background: linear-gradient(135deg, #6e8efb, #a777e3);
                     padding: 30px;
                     text-align: center;
                     color: white;
-                }
-                .logo {
+                }}
+                .logo {{
                     max-width: 150px;
                     margin-bottom: 20px;
-                }
-                .content {
+                }}
+                .content {{
                     padding: 30px;
-                }
-                h1 {
+                }}
+                h1 {{
                     color: #2c3e50;
                     margin-top: 0;
-                }
-                .button {
+                }}
+                .button {{
                     display: inline-block;
                     padding: 12px 30px;
                     background: linear-gradient(135deg, #6e8efb, #a777e3);
@@ -56,21 +56,21 @@ def recover_password(
                     border-radius: 30px;
                     font-weight: bold;
                     margin: 20px 0;
-                }
-                .footer {
+                }}
+                .footer {{
                     text-align: center;
                     padding: 20px;
                     background: #f5f5f5;
                     color: #777;
                     font-size: 12px;
-                }
-                .highlight {
+                }}
+                .highlight {{
                     background-color: #f8f4ff;
                     padding: 15px;
                     border-radius: 5px;
                     margin: 20px 0;
                     border-left: 4px solid #a777e3;
-                }
+                }}
             </style>
         </head>
         <body>
