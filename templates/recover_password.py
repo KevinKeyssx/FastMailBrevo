@@ -3,7 +3,7 @@ from datetime import datetime
 def recover_password(
     app_name        : str,
     user_name       : str,
-    reset_url       : str,
+    redirect_url    : str,
     app_logo_url    : str
 ) -> str:
     current_year = datetime.now().year
@@ -91,11 +91,11 @@ def recover_password(
 
                     <p>Para crear una nueva contraseña, haz clic en el siguiente botón:</p>
 
-                    <a href="{reset_url}" class="button">Restablecer contraseña</a>
+                    <a href="{redirect_url}" class="button">Restablecer contraseña</a>
 
                     <p>O copia y pega este enlace en tu navegador:</p>
 
-                    <p style="word-break: break-all;"><a href="{reset_url}">{reset_url}</a></p>
+                    <p style="word-break: break-all;"><a href="{redirect_url}">{redirect_url}</a></p>
 
                     <p>Este enlace expirará en 24 horas por seguridad.</p>
 
