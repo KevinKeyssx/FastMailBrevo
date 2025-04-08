@@ -10,7 +10,9 @@ def admin_template( send: SendEmail ) -> str:
             app_name        = send.name,
             user_name       = send.emailsTo[0].name,
             redirect_url    = send.template.redirect_url,
-            app_logo_url    = send.template.logo_url
+            app_logo_url    = send.template.logo_url,
+            color           = send.template.color,
+            text_color      = send.template.text_color,
         )
     elif send.template.type == TemplateType.VERIFY_ACCOUNT:
         return verify_account(
